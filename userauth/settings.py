@@ -94,6 +94,14 @@ DATABASES = {
         'PASSWORD': '1234',
         'HOST': 'localhost',
         'PORT': '5433',
+    },
+    'confluxdb': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'conflux',
+        'USER': 'postgres',
+        'PASSWORD': '1234',
+        'HOST': 'localhost',
+        'PORT': '5433',
     }
 }
 
